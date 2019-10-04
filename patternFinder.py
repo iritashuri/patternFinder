@@ -1,7 +1,9 @@
 import argparse
 import re
 import sys
+import colorama
 
+colorama.init()
 
 class Color:
     # Class that defines the color that highlight the matching text
