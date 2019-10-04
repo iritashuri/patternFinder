@@ -23,7 +23,6 @@ default_color = Color('\033[00m', '\033[00m')
 
 
 class AbstractPrinter:
-    # Using an Abstract Factory Design pattern - AbstractPrinter
     # Class that hold the states required to print line and abstract method to print line
 
     def __init__(self, line, line_number, text_file, match, color):
